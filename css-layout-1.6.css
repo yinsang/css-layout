@@ -1,5 +1,5 @@
 /* reset */
-html body {
+body {
   line-height: 1.4;
   color: #333;
   font-family: 'PingFang SC', system-ui, -apple-system, Helvetica, Arial, sans-serif;
@@ -145,6 +145,9 @@ img {
   .fw500 {
     font-weight: 700;
   }
+  .fw600 {
+    font-weight: 700;
+  }
 }
 .fw600 {
   font-weight: 600;
@@ -183,7 +186,7 @@ img {
 .ova {
   overflow: auto;
 }
-/* 块状元素水平居中 */
+/* 鍧楃姸鍏冪礌姘村钩灞呬腑 */
 .auto {
   margin: 0 auto;
 }
