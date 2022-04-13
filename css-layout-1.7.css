@@ -42,154 +42,158 @@ ol {
 img {
   border: 0;
 }
+
 /* ---------------------single CSS----------------------- */
 /* display */
 .dn {
   display: none;
 }
+
 .di {
   display: inline;
 }
+
 .db {
   display: block;
 }
+
 .dib {
   display: inline-block;
 }
+
 .df {
   display: -webkit-flex;
   display: flex;
 }
+
 .dif {
   display: -webkit-inline-flex;
   display: inline-flex;
 }
+
 /* flex */
 .f1 {
   -webkit-flex: 1;
-          flex: 1;
+  flex: 1;
 }
+
 .aic {
   -webkit-align-items: center;
-          align-items: center;
+  align-items: center;
 }
+
 .jcc {
   -webkit-justify-content: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .fdr {
   -webkit-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
+
 .fdc {
   -webkit-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
+
 .cf {
   color: #fff;
 }
+
 /* font-size */
 .f0 {
   font-size: 0;
 }
+
 .fz8 {
   font-size: 8px;
   line-height: 1.2;
   -webkit-text-size-adjust: none;
-     -moz-text-size-adjust: none;
-          text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 .fz10 {
   font-size: 10px;
   line-height: 1.2;
   -webkit-text-size-adjust: none;
-     -moz-text-size-adjust: none;
-          text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  text-size-adjust: none;
 }
+
 .fz12 {
   font-size: 12px;
 }
+
 .fz13 {
   font-size: 13px;
 }
+
 .fz14 {
   font-size: 14px;
 }
+
 .fz16 {
   font-size: 16px;
 }
+
 .fz18 {
   font-size: 18px;
 }
+
 .fz20 {
   font-size: 20px;
 }
+
 .fz24 {
   font-size: 24px;
 }
+
 .fz28 {
   font-size: 28px;
 }
+
 /* font-style */
 
 .fw400 {
   font-weight: 400;
 }
+
 .fw500 {
   font-weight: 500;
 }
-@supports not (-webkit-touch-callout: none) {
-  /* CSS specific to Android devices */
-  .fw500 {
-    font-weight: 700;
-  }
-  .fw600 {
-    font-weight: 700;
-  }
-}
+
 .fw600 {
   font-weight: 600;
 }
+
 .fw700 {
   font-weight: 700;
 }
+
 /* text-align */
 .tac {
   text-align: center;
 }
+
 .tar {
   text-align: right;
 }
+
 .tal {
   text-align: left;
 }
+
 /* position */
 .rel {
   position: relative;
 }
+
 .abs {
   position: absolute;
 }
-/* float */
-.l {
-  float: left;
-}
-.r {
-  float: right;
-}
-/* overflow */
-.ovh {
-  overflow: hidden;
-}
-.ova {
-  overflow: auto;
-}
-/* 鍧楃姸鍏冪礌姘村钩灞呬腑 */
-.auto {
-  margin: 0 auto;
-}
+
 .ell {
   overflow: hidden;
   text-overflow: ellipsis;
